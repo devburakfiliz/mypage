@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    box-sizing:  border-box;
+    color: white;
+}
+@font-face {
+    font-family: 'Merianda';
+    src: url("../fonts/merianda.ttf") format('woff2');
+}
+
+.landingpage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    transition: 0.5s;
+    font-family: serif;
+}
+.video-bg{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    object-fit: cover;
+    background-color: black;
+}
+
+.bg-overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+
+}
+.navbar{
+    width: 100%;
+    height: 6em;
+    border-bottom: 2px solid white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 1;
+
+}
+.text-anim{
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    
+
+}
+
+.text-anim-p{
+    color: red;
+}
+.menu div{
+    width: 90%;
+    height: 0.25em;
+    background-color: white;
+    border-radius: 1em;
+
+}
+
+.menu div:nth-of-type(2) {width: 40%;} 
+
