@@ -15,13 +15,19 @@ const Landingpage =()=>{
             
 
              <div className="navbar">
-
-                
+                <p>I'm 
+                <b style={{color:'#C4DDFF' }}> Burak FİLİZ</b>
+                </p>
              
                 <div className="text-anim">
+                
 
             
                 <p>
+                    
+                
+
+                   <p style={{color:'#C4DDFF' }}> I'm a  </p>
                     <Typical
                                 
                                 loop={Infinity}

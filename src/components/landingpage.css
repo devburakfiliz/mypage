@@ -2,6 +2,7 @@
     margin: 0;
     box-sizing:  border-box;
     color: white;
+    
 }
 @font-face {
     font-family: 'Merianda';
@@ -18,6 +19,7 @@
     position: relative;
     transition: 0.5s;
     font-family: serif;
+    
 }
 .video-bg{
     width: 100%;
@@ -32,13 +34,13 @@
 .bg-overlay{
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.855);
 
 }
 .navbar{
     width: 100%;
-    height: 6em;
-    border-bottom: 2px solid white;
+    height: 4em;
+    border-bottom: 1px solid white;
     position: absolute;
     top: 0;
     left: 0;
@@ -46,6 +48,13 @@
     justify-content: flex-start;
     align-items: center;
     z-index: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
 
 }
 .text-anim{
