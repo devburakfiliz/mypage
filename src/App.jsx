@@ -1,14 +1,18 @@
+import React from 'react';
 import './App.css';
 import Landingpage from './components/landingpage';
-import Typical from 'react-typical';
+import Navbar from './components/Navbar'
+
 function App() {
   return (
     <div className="App">
-     
-     <Landingpage/>
-     
-     
-      
+      <React.Fragment>
+        <Navbar />
+      </React.Fragment>
+      <Landingpage />
+
+
+
     </div>
   );
 }

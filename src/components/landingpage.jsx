@@ -2,7 +2,6 @@ import React from "react";
 import './landingpage.css'
 import BgVideo from '../media/bg.mp4.mp4'
 import Typical from "react-typical";
-import Text from "../textanimation/Text";
 
 const Landingpage =()=>{
     return (
@@ -14,9 +13,9 @@ const Landingpage =()=>{
             <div className="bg-overlay"> </div>
             
 
-             <div className="navbar">
+             <div className="text">
                 <p>I'm 
-                <b style={{color:'#C4DDFF' }}> Burak FİLİZ</b>
+                <b style={{color:'#5584AC' }}> Burak FİLİZ</b>
                 </p>
              
                 <div className="text-anim">
@@ -27,7 +26,7 @@ const Landingpage =()=>{
                     
                 
 
-                   <p style={{color:'#C4DDFF' }}> I'm a  </p>
+                   <p style={{color:'#5584AC' }}> I'm a  </p>
                     <Typical
                                 
                                 loop={Infinity}
